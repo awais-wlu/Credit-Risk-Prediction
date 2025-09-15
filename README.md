@@ -2,7 +2,7 @@
 
 This project involves building and evaluating machine learning models to predict credit risk using the German Credit dataset. The goal is to classify individuals as good or bad credit risks based on various financial and demographic attributes.
 
-## 🔍 Overview
+## Overview
 
 - **Dataset**: [German Credit Data](https://www.kaggle.com/datasets/uciml/german-credit)  
 - **Objective**: Predict whether a loan applicant is a good or bad credit risk  
@@ -11,7 +11,7 @@ This project involves building and evaluating machine learning models to predict
   - Exploratory Data Analysis (EDA)
   - Model training and evaluation
 
-## 📊 Data Exploration
+## Data Exploration
 
 Key steps in the exploratory phase included:
 - Handling missing or inconsistent values
@@ -19,7 +19,7 @@ Key steps in the exploratory phase included:
 - Identifying relationships using a correlation heatmap
 - Detecting outliers using boxplots
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 
 - Python
 - Pandas
@@ -27,7 +27,7 @@ Key steps in the exploratory phase included:
 - XGBoost
 - Matplotlib
 
-## 🤖 Models Used
+## Models Used
 
 Three classification models were built and compared:
 - **Logistic Regression**
@@ -39,16 +39,16 @@ Each model was evaluated using metrics such as:
 - Precision
 - Confusion Matrix
 
-## ✅ Results
+## Results
 
 The models were compared based on predictive performance, with a focus on balancing precision and accuracy. XGBoost generally performed the best, showing stronger predictive power without significant overfitting.
 
-## 📁 Files
+## Files
 
 - `credit_risk_model.ipynb`: Full notebook with code, analysis, and results
 - Visualizations embedded in notebook
 
-## 📌 Notes
+## Notes
 
 - This project is intended as a portfolio piece for internship applications in data analytics and finance.
 - Dataset is publicly available from Kaggle.
